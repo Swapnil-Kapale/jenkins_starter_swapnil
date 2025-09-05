@@ -4,8 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Vipul-0722/jenkins_starter.git',
-                    credentialsId: 'ecf815ab-0b0f-442a-9767-d2b76edddaf6'
+                    url: 'https://github.com/Swapnil-Kapale/jenkins_starter_swapnil.git'
             }
         }
         stage('Build') {
